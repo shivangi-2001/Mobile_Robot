@@ -1,0 +1,46 @@
+[0.016s] Invoking command in '/home/ubuntu/dev_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ubuntu/dev_ws/src/basic_mobile_robot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dev_ws/install/basic_mobile_robot
+[1.222s] -- The C compiler identification is GNU 9.4.0
+[2.088s] -- The CXX compiler identification is GNU 9.4.0
+[2.135s] -- Check for working C compiler: /usr/bin/cc
+[2.274s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.281s] -- Detecting C compiler ABI info
+[2.409s] -- Detecting C compiler ABI info - done
+[2.425s] -- Detecting C compile features
+[2.426s] -- Detecting C compile features - done
+[2.435s] -- Check for working CXX compiler: /usr/bin/c++
+[2.557s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.558s] -- Detecting CXX compiler ABI info
+[2.676s] -- Detecting CXX compiler ABI info - done
+[2.694s] -- Detecting CXX compile features
+[2.694s] -- Detecting CXX compile features - done
+[2.715s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[2.784s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.784s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.045s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.202s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.213s] -- Added test 'lint_cmake' to check CMake code style
+[3.219s] -- Added test 'xmllint' to check XML markup files
+[3.227s] -- Configuring done
+[3.230s] -- Generating done
+[3.232s] -- Build files have been written to: /home/ubuntu/dev_ws/build/basic_mobile_robot
+[3.238s] Invoked command in '/home/ubuntu/dev_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ubuntu/dev_ws/src/basic_mobile_robot -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dev_ws/install/basic_mobile_robot
+[3.244s] Invoking command in '/home/ubuntu/dev_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ubuntu/dev_ws/build/basic_mobile_robot -- -j12 -l12
+[3.304s] Invoked command in '/home/ubuntu/dev_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ubuntu/dev_ws/build/basic_mobile_robot -- -j12 -l12
+[3.359s] Invoking command in '/home/ubuntu/dev_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ubuntu/dev_ws/build/basic_mobile_robot
+[3.374s] -- Install configuration: ""
+[3.374s] -- Installing: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/ament_index/resource_index/package_run_dependencies/basic_mobile_robot
+[3.375s] -- Installing: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/ament_index/resource_index/parent_prefix_path/basic_mobile_robot
+[3.375s] -- Installing: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.sh
+[3.375s] -- Installing: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.dsv
+[3.376s] -- Installing: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.sh
+[3.376s] -- Installing: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.dsv
+[3.376s] -- Installing: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.bash
+[3.376s] -- Installing: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.sh
+[3.376s] -- Installing: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.zsh
+[3.377s] -- Installing: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.dsv
+[3.377s] -- Installing: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.dsv
+[3.377s] -- Installing: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/ament_index/resource_index/packages/basic_mobile_robot
+[3.377s] -- Installing: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig.cmake
+[3.378s] -- Installing: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig-version.cmake
+[3.378s] -- Installing: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.xml
+[3.380s] Invoked command in '/home/ubuntu/dev_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ubuntu/dev_ws/build/basic_mobile_robot

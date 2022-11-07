@@ -1,0 +1,11 @@
+{
+  "package_name": "robot_localization",
+  "non_idl_tuples": [
+    "/home/ubuntu/dev_ws/src/robot_localization:srv/FromLL.srv",
+    "/home/ubuntu/dev_ws/src/robot_localization:srv/GetState.srv",
+    "/home/ubuntu/dev_ws/src/robot_localization:srv/SetDatum.srv",
+    "/home/ubuntu/dev_ws/src/robot_localization:srv/SetPose.srv",
+    "/home/ubuntu/dev_ws/src/robot_localization:srv/ToggleFilterProcessing.srv",
+    "/home/ubuntu/dev_ws/src/robot_localization:srv/ToLL.srv"
+  ]
+}

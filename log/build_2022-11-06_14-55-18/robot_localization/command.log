@@ -1,0 +1,6 @@
+Invoking command in '/home/ubuntu/dev_ws/build/robot_localization': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ubuntu/dev_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dev_ws/install/robot_localization
+Invoked command in '/home/ubuntu/dev_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ubuntu/dev_ws/src/robot_localization -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dev_ws/install/robot_localization
+Invoking command in '/home/ubuntu/dev_ws/build/robot_localization': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ubuntu/dev_ws/build/robot_localization -- -j12 -l12
+Invoked command in '/home/ubuntu/dev_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ubuntu/dev_ws/build/robot_localization -- -j12 -l12
+Invoking command in '/home/ubuntu/dev_ws/build/robot_localization': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ubuntu/dev_ws/build/robot_localization
+Invoked command in '/home/ubuntu/dev_ws/build/robot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ubuntu/dev_ws/build/robot_localization

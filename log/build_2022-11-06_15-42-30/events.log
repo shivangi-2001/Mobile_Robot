@@ -1,0 +1,902 @@
+[0.000000] (-) TimerEvent: {}
+[0.000425] (robot_localization) JobQueued: {'identifier': 'robot_localization', 'dependencies': OrderedDict()}
+[0.000510] (basic_mobile_robot) JobQueued: {'identifier': 'basic_mobile_robot', 'dependencies': OrderedDict([('robot_localization', '/home/ubuntu/dev_ws/install/robot_localization')])}
+[0.001758] (robot_localization) JobStarted: {'identifier': 'robot_localization'}
+[0.082851] (robot_localization) JobProgress: {'identifier': 'robot_localization', 'progress': 'cmake'}
+[0.099468] (-) TimerEvent: {}
+[0.200093] (-) TimerEvent: {}
+[0.300693] (-) TimerEvent: {}
+[0.401350] (-) TimerEvent: {}
+[0.501913] (-) TimerEvent: {}
+[0.602543] (-) TimerEvent: {}
+[0.703133] (-) TimerEvent: {}
+[0.803659] (-) TimerEvent: {}
+[0.904090] (-) TimerEvent: {}
+[1.004630] (-) TimerEvent: {}
+[1.105118] (-) TimerEvent: {}
+[1.205564] (-) TimerEvent: {}
+[1.306008] (-) TimerEvent: {}
+[1.406459] (-) TimerEvent: {}
+[1.506926] (-) TimerEvent: {}
+[1.607466] (-) TimerEvent: {}
+[1.708000] (-) TimerEvent: {}
+[1.808659] (-) TimerEvent: {}
+[1.874596] (robot_localization) JobProgress: {'identifier': 'robot_localization', 'progress': 'build'}
+[1.877332] (robot_localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/dev_ws/build/robot_localization', '--', '-j12', '-l12'], 'cwd': '/home/ubuntu/dev_ws/build/robot_localization', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2447'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/dev_ws/install/robot_localization/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2091'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/999/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/dev_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:42234'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/focalfossa/dev_ws/src/basic_mobile_robot/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2525,unix/ubuntu:/tmp/.ICE-unix/2525'), ('INVOCATION_ID', '6489e05d81954a8cb793f3411f6a6fe9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b61c4b26_873e_40da_b799_76e26bb86af7'), ('XDG_RUNTIME_DIR', '/run/user/999'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/999/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AUTH_SOCK', '/run/user/999/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/dev_ws/install/basic_mobile_robot:/home/ubuntu/dev_ws/install/robot_localization:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/999/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/dev_ws/build/robot_localization'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/dev_ws/install/basic_mobile_robot:/home/ubuntu/dev_ws/install/robot_localization:/opt/ros/galactic')]), 'shell': False}
+[2.720012] (-) TimerEvent: {}
+[2.821365] (-) TimerEvent: {}
+[2.922294] (-) TimerEvent: {}
+[3.022890] (-) TimerEvent: {}
+[3.123458] (-) TimerEvent: {}
+[3.224031] (-) TimerEvent: {}
+[3.324585] (-) TimerEvent: {}
+[3.425179] (-) TimerEvent: {}
+[3.525724] (-) TimerEvent: {}
+[3.626141] (-) TimerEvent: {}
+[3.726611] (-) TimerEvent: {}
+[3.827499] (-) TimerEvent: {}
+[3.928110] (-) TimerEvent: {}
+[4.028725] (-) TimerEvent: {}
+[4.129293] (-) TimerEvent: {}
+[4.229901] (-) TimerEvent: {}
+[4.330483] (-) TimerEvent: {}
+[4.431063] (-) TimerEvent: {}
+[4.531874] (-) TimerEvent: {}
+[4.632520] (-) TimerEvent: {}
+[4.733065] (-) TimerEvent: {}
+[4.833503] (-) TimerEvent: {}
+[4.934012] (-) TimerEvent: {}
+[5.034459] (-) TimerEvent: {}
+[5.135148] (-) TimerEvent: {}
+[5.235975] (-) TimerEvent: {}
+[5.336676] (-) TimerEvent: {}
+[5.437568] (-) TimerEvent: {}
+[5.538164] (-) TimerEvent: {}
+[5.638760] (-) TimerEvent: {}
+[5.739585] (-) TimerEvent: {}
+[5.840193] (-) TimerEvent: {}
+[5.940939] (-) TimerEvent: {}
+[6.041486] (-) TimerEvent: {}
+[6.142218] (-) TimerEvent: {}
+[6.242829] (-) TimerEvent: {}
+[6.343440] (-) TimerEvent: {}
+[6.444212] (-) TimerEvent: {}
+[6.545058] (-) TimerEvent: {}
+[6.645892] (-) TimerEvent: {}
+[6.746919] (-) TimerEvent: {}
+[6.847530] (-) TimerEvent: {}
+[6.948352] (-) TimerEvent: {}
+[7.049177] (-) TimerEvent: {}
+[7.149790] (-) TimerEvent: {}
+[7.151277] (robot_localization) StdoutLine: {'line': b'[  2%] Built target gtest\n'}
+[7.250201] (-) TimerEvent: {}
+[7.350830] (-) TimerEvent: {}
+[7.451426] (-) TimerEvent: {}
+[7.471871] (robot_localization) StdoutLine: {'line': b'[  4%] Built target gtest_main\n'}
+[7.551692] (-) TimerEvent: {}
+[7.652514] (-) TimerEvent: {}
+[7.753337] (-) TimerEvent: {}
+[7.854175] (-) TimerEvent: {}
+[7.955059] (-) TimerEvent: {}
+[8.055894] (-) TimerEvent: {}
+[8.156767] (-) TimerEvent: {}
+[8.257254] (-) TimerEvent: {}
+[8.357760] (-) TimerEvent: {}
+[8.458328] (-) TimerEvent: {}
+[8.559125] (-) TimerEvent: {}
+[8.659728] (-) TimerEvent: {}
+[8.760328] (-) TimerEvent: {}
+[8.860912] (-) TimerEvent: {}
+[8.961535] (-) TimerEvent: {}
+[9.062099] (-) TimerEvent: {}
+[9.162723] (-) TimerEvent: {}
+[9.263543] (-) TimerEvent: {}
+[9.364445] (-) TimerEvent: {}
+[9.465288] (-) TimerEvent: {}
+[9.566111] (-) TimerEvent: {}
+[9.666992] (-) TimerEvent: {}
+[9.767836] (-) TimerEvent: {}
+[9.868523] (-) TimerEvent: {}
+[9.969149] (-) TimerEvent: {}
+[10.069733] (-) TimerEvent: {}
+[10.151470] (robot_localization) StdoutLine: {'line': b'[ 11%] Built target robot_localization__rosidl_generator_c\n'}
+[10.169916] (-) TimerEvent: {}
+[10.270436] (-) TimerEvent: {}
+[10.370971] (-) TimerEvent: {}
+[10.471542] (-) TimerEvent: {}
+[10.572109] (-) TimerEvent: {}
+[10.672621] (-) TimerEvent: {}
+[10.679666] (robot_localization) StdoutLine: {'line': b'[ 11%] Built target robot_localization__cpp\n'}
+[10.772845] (-) TimerEvent: {}
+[10.873666] (-) TimerEvent: {}
+[10.974523] (-) TimerEvent: {}
+[11.075153] (-) TimerEvent: {}
+[11.175764] (-) TimerEvent: {}
+[11.276415] (-) TimerEvent: {}
+[11.377046] (-) TimerEvent: {}
+[11.477604] (-) TimerEvent: {}
+[11.490559] (robot_localization) StdoutLine: {'line': b'[ 18%] Built target robot_localization__rosidl_typesupport_introspection_c\n'}
+[11.577791] (-) TimerEvent: {}
+[11.678318] (-) TimerEvent: {}
+[11.778771] (-) TimerEvent: {}
+[11.879365] (-) TimerEvent: {}
+[11.979993] (-) TimerEvent: {}
+[12.080594] (-) TimerEvent: {}
+[12.181233] (-) TimerEvent: {}
+[12.281814] (-) TimerEvent: {}
+[12.382392] (-) TimerEvent: {}
+[12.482977] (-) TimerEvent: {}
+[12.583625] (-) TimerEvent: {}
+[12.684170] (-) TimerEvent: {}
+[12.784734] (-) TimerEvent: {}
+[12.885342] (-) TimerEvent: {}
+[12.985904] (-) TimerEvent: {}
+[13.086495] (-) TimerEvent: {}
+[13.187074] (-) TimerEvent: {}
+[13.287604] (-) TimerEvent: {}
+[13.388040] (-) TimerEvent: {}
+[13.488475] (-) TimerEvent: {}
+[13.588900] (-) TimerEvent: {}
+[13.689452] (-) TimerEvent: {}
+[13.789969] (-) TimerEvent: {}
+[13.830270] (robot_localization) StdoutLine: {'line': b'[ 25%] Built target robot_localization__rosidl_typesupport_introspection_cpp\n'}
+[13.890206] (-) TimerEvent: {}
+[13.990748] (-) TimerEvent: {}
+[14.091332] (-) TimerEvent: {}
+[14.191891] (-) TimerEvent: {}
+[14.292391] (-) TimerEvent: {}
+[14.392928] (-) TimerEvent: {}
+[14.493433] (-) TimerEvent: {}
+[14.594024] (-) TimerEvent: {}
+[14.694615] (-) TimerEvent: {}
+[14.795163] (-) TimerEvent: {}
+[14.895698] (-) TimerEvent: {}
+[14.996225] (-) TimerEvent: {}
+[15.096659] (-) TimerEvent: {}
+[15.197401] (-) TimerEvent: {}
+[15.297915] (-) TimerEvent: {}
+[15.398279] (-) TimerEvent: {}
+[15.498666] (-) TimerEvent: {}
+[15.599091] (-) TimerEvent: {}
+[15.638641] (robot_localization) StdoutLine: {'line': b'[ 32%] Built target robot_localization__rosidl_typesupport_fastrtps_cpp\n'}
+[15.699248] (-) TimerEvent: {}
+[15.799772] (-) TimerEvent: {}
+[15.900240] (-) TimerEvent: {}
+[16.000698] (-) TimerEvent: {}
+[16.101185] (-) TimerEvent: {}
+[16.201669] (-) TimerEvent: {}
+[16.302147] (-) TimerEvent: {}
+[16.402704] (-) TimerEvent: {}
+[16.503201] (-) TimerEvent: {}
+[16.603614] (-) TimerEvent: {}
+[16.704094] (-) TimerEvent: {}
+[16.804728] (-) TimerEvent: {}
+[16.905206] (-) TimerEvent: {}
+[17.005671] (-) TimerEvent: {}
+[17.106212] (-) TimerEvent: {}
+[17.152512] (robot_localization) StdoutLine: {'line': b'[ 39%] Built target robot_localization__rosidl_typesupport_cpp\n'}
+[17.206413] (-) TimerEvent: {}
+[17.307009] (-) TimerEvent: {}
+[17.407571] (-) TimerEvent: {}
+[17.508150] (-) TimerEvent: {}
+[17.608806] (-) TimerEvent: {}
+[17.709526] (-) TimerEvent: {}
+[17.810092] (-) TimerEvent: {}
+[17.910652] (-) TimerEvent: {}
+[18.011294] (-) TimerEvent: {}
+[18.111845] (-) TimerEvent: {}
+[18.212379] (-) TimerEvent: {}
+[18.312863] (-) TimerEvent: {}
+[18.413428] (-) TimerEvent: {}
+[18.514132] (-) TimerEvent: {}
+[18.614815] (-) TimerEvent: {}
+[18.715353] (-) TimerEvent: {}
+[18.816081] (-) TimerEvent: {}
+[18.917090] (-) TimerEvent: {}
+[18.951700] (robot_localization) StdoutLine: {'line': b'[ 46%] Built target robot_localization__rosidl_typesupport_fastrtps_c\n'}
+[19.017269] (-) TimerEvent: {}
+[19.117886] (-) TimerEvent: {}
+[19.218436] (-) TimerEvent: {}
+[19.319090] (-) TimerEvent: {}
+[19.419700] (-) TimerEvent: {}
+[19.510938] (robot_localization) StdoutLine: {'line': b'[ 53%] Built target robot_localization__rosidl_typesupport_c\n'}
+[19.519891] (-) TimerEvent: {}
+[19.620457] (-) TimerEvent: {}
+[19.698471] (robot_localization) StdoutLine: {'line': b'[ 53%] Built target robot_localization\n'}
+[19.720629] (-) TimerEvent: {}
+[19.821409] (-) TimerEvent: {}
+[19.922038] (-) TimerEvent: {}
+[20.022819] (-) TimerEvent: {}
+[20.123475] (-) TimerEvent: {}
+[20.224069] (-) TimerEvent: {}
+[20.324630] (-) TimerEvent: {}
+[20.425185] (-) TimerEvent: {}
+[20.525702] (-) TimerEvent: {}
+[20.626247] (-) TimerEvent: {}
+[20.726778] (-) TimerEvent: {}
+[20.827362] (-) TimerEvent: {}
+[20.927926] (-) TimerEvent: {}
+[21.028447] (-) TimerEvent: {}
+[21.128925] (-) TimerEvent: {}
+[21.229418] (-) TimerEvent: {}
+[21.329912] (-) TimerEvent: {}
+[21.430448] (-) TimerEvent: {}
+[21.531043] (-) TimerEvent: {}
+[21.631754] (-) TimerEvent: {}
+[21.732377] (-) TimerEvent: {}
+[21.832876] (-) TimerEvent: {}
+[21.933374] (-) TimerEvent: {}
+[22.033987] (-) TimerEvent: {}
+[22.134602] (-) TimerEvent: {}
+[22.235161] (-) TimerEvent: {}
+[22.335731] (-) TimerEvent: {}
+[22.436320] (-) TimerEvent: {}
+[22.536856] (-) TimerEvent: {}
+[22.637390] (-) TimerEvent: {}
+[22.737878] (-) TimerEvent: {}
+[22.838459] (-) TimerEvent: {}
+[22.939048] (-) TimerEvent: {}
+[23.039611] (-) TimerEvent: {}
+[23.140516] (-) TimerEvent: {}
+[23.241356] (-) TimerEvent: {}
+[23.341962] (-) TimerEvent: {}
+[23.442704] (-) TimerEvent: {}
+[23.543302] (-) TimerEvent: {}
+[23.643852] (-) TimerEvent: {}
+[23.744433] (-) TimerEvent: {}
+[23.845045] (-) TimerEvent: {}
+[23.883892] (robot_localization) StdoutLine: {'line': b'[ 62%] Built target rl_lib\n'}
+[23.945230] (-) TimerEvent: {}
+[24.045798] (-) TimerEvent: {}
+[24.146341] (-) TimerEvent: {}
+[24.246945] (-) TimerEvent: {}
+[24.347543] (-) TimerEvent: {}
+[24.448154] (-) TimerEvent: {}
+[24.495433] (robot_localization) StdoutLine: {'line': b'[ 63%] Built target robot_localization__py\n'}
+[24.548342] (-) TimerEvent: {}
+[24.648917] (-) TimerEvent: {}
+[24.749520] (-) TimerEvent: {}
+[24.850162] (-) TimerEvent: {}
+[24.950786] (-) TimerEvent: {}
+[25.050532] (robot_localization) StdoutLine: {'line': b'[ 65%] Built target robot_localization_listener_node\n'}
+[25.050968] (-) TimerEvent: {}
+[25.151688] (-) TimerEvent: {}
+[25.252526] (-) TimerEvent: {}
+[25.353127] (-) TimerEvent: {}
+[25.453670] (-) TimerEvent: {}
+[25.554279] (-) TimerEvent: {}
+[25.654824] (-) TimerEvent: {}
+[25.755428] (-) TimerEvent: {}
+[25.856041] (-) TimerEvent: {}
+[25.956662] (-) TimerEvent: {}
+[26.057169] (-) TimerEvent: {}
+[26.087316] (robot_localization) StdoutLine: {'line': b'[ 72%] Built target robot_localization__python\n'}
+[26.157336] (-) TimerEvent: {}
+[26.257852] (-) TimerEvent: {}
+[26.358429] (-) TimerEvent: {}
+[26.446599] (robot_localization) StdoutLine: {'line': b'[ 74%] Built target navsat_transform_node\n'}
+[26.458624] (-) TimerEvent: {}
+[26.559200] (-) TimerEvent: {}
+[26.659728] (-) TimerEvent: {}
+[26.760281] (-) TimerEvent: {}
+[26.861111] (-) TimerEvent: {}
+[26.961725] (-) TimerEvent: {}
+[27.062309] (-) TimerEvent: {}
+[27.162849] (-) TimerEvent: {}
+[27.201753] (robot_localization) StdoutLine: {'line': b'[ 76%] Built target robot_localization__rosidl_typesupport_c__pyext\n'}
+[27.263050] (-) TimerEvent: {}
+[27.363618] (-) TimerEvent: {}
+[27.464185] (-) TimerEvent: {}
+[27.564805] (-) TimerEvent: {}
+[27.665731] (-) TimerEvent: {}
+[27.766614] (-) TimerEvent: {}
+[27.867723] (-) TimerEvent: {}
+[27.968555] (-) TimerEvent: {}
+[28.069378] (-) TimerEvent: {}
+[28.170209] (-) TimerEvent: {}
+[28.270821] (-) TimerEvent: {}
+[28.371429] (-) TimerEvent: {}
+[28.472025] (-) TimerEvent: {}
+[28.572869] (-) TimerEvent: {}
+[28.673802] (-) TimerEvent: {}
+[28.774417] (-) TimerEvent: {}
+[28.875049] (-) TimerEvent: {}
+[28.975667] (-) TimerEvent: {}
+[29.076543] (-) TimerEvent: {}
+[29.177419] (-) TimerEvent: {}
+[29.278439] (-) TimerEvent: {}
+[29.379088] (-) TimerEvent: {}
+[29.479913] (-) TimerEvent: {}
+[29.580782] (-) TimerEvent: {}
+[29.681357] (-) TimerEvent: {}
+[29.782174] (-) TimerEvent: {}
+[29.882777] (-) TimerEvent: {}
+[29.983410] (-) TimerEvent: {}
+[30.084295] (-) TimerEvent: {}
+[30.184905] (-) TimerEvent: {}
+[30.285517] (-) TimerEvent: {}
+[30.386338] (-) TimerEvent: {}
+[30.486908] (-) TimerEvent: {}
+[30.497296] (robot_localization) StdoutLine: {'line': b'[ 78%] Built target robot_localization__rosidl_typesupport_introspection_c__pyext\n'}
+[30.587074] (-) TimerEvent: {}
+[30.687507] (-) TimerEvent: {}
+[30.787822] (-) TimerEvent: {}
+[30.888206] (-) TimerEvent: {}
+[30.988547] (-) TimerEvent: {}
+[31.089288] (-) TimerEvent: {}
+[31.189894] (-) TimerEvent: {}
+[31.290704] (-) TimerEvent: {}
+[31.391331] (-) TimerEvent: {}
+[31.492155] (-) TimerEvent: {}
+[31.593034] (-) TimerEvent: {}
+[31.693837] (-) TimerEvent: {}
+[31.794461] (-) TimerEvent: {}
+[31.895043] (-) TimerEvent: {}
+[31.995639] (-) TimerEvent: {}
+[32.096148] (-) TimerEvent: {}
+[32.196566] (-) TimerEvent: {}
+[32.248383] (robot_localization) StdoutLine: {'line': b'[ 80%] Built target robot_localization__rosidl_typesupport_fastrtps_c__pyext\n'}
+[32.296754] (-) TimerEvent: {}
+[32.397297] (-) TimerEvent: {}
+[32.497857] (-) TimerEvent: {}
+[32.499915] (robot_localization) StdoutLine: {'line': b'[ 82%] Built target filter_base-test\n'}
+[32.598041] (-) TimerEvent: {}
+[32.698616] (-) TimerEvent: {}
+[32.779914] (robot_localization) StdoutLine: {'line': b'[ 84%] Built target test_ukf\n'}
+[32.798806] (-) TimerEvent: {}
+[32.899335] (-) TimerEvent: {}
+[32.999831] (-) TimerEvent: {}
+[33.100587] (-) TimerEvent: {}
+[33.201218] (-) TimerEvent: {}
+[33.301836] (-) TimerEvent: {}
+[33.402373] (-) TimerEvent: {}
+[33.502967] (-) TimerEvent: {}
+[33.603543] (-) TimerEvent: {}
+[33.704386] (-) TimerEvent: {}
+[33.804951] (-) TimerEvent: {}
+[33.905488] (-) TimerEvent: {}
+[33.911244] (robot_localization) StdoutLine: {'line': b'[ 86%] Built target test_ros_robot_localization_listener\n'}
+[34.005665] (-) TimerEvent: {}
+[34.106180] (-) TimerEvent: {}
+[34.206737] (-) TimerEvent: {}
+[34.307339] (-) TimerEvent: {}
+[34.407955] (-) TimerEvent: {}
+[34.508574] (-) TimerEvent: {}
+[34.609225] (-) TimerEvent: {}
+[34.709874] (-) TimerEvent: {}
+[34.810431] (-) TimerEvent: {}
+[34.910961] (-) TimerEvent: {}
+[35.011528] (-) TimerEvent: {}
+[35.112051] (-) TimerEvent: {}
+[35.125072] (robot_localization) StdoutLine: {'line': b'[ 87%] Built target ekf_node\n'}
+[35.212281] (-) TimerEvent: {}
+[35.312870] (-) TimerEvent: {}
+[35.413436] (-) TimerEvent: {}
+[35.514019] (-) TimerEvent: {}
+[35.614637] (-) TimerEvent: {}
+[35.715260] (-) TimerEvent: {}
+[35.816090] (-) TimerEvent: {}
+[35.916950] (-) TimerEvent: {}
+[36.005434] (robot_localization) StdoutLine: {'line': b'[ 88%] Built target test_robot_localization_estimator\n'}
+[36.017116] (-) TimerEvent: {}
+[36.117901] (-) TimerEvent: {}
+[36.218550] (-) TimerEvent: {}
+[36.319165] (-) TimerEvent: {}
+[36.420107] (-) TimerEvent: {}
+[36.521037] (-) TimerEvent: {}
+[36.621637] (-) TimerEvent: {}
+[36.722428] (-) TimerEvent: {}
+[36.788543] (robot_localization) StdoutLine: {'line': b'[ 90%] Built target test_filter_base_diagnostics_timestamps\n'}
+[36.822676] (-) TimerEvent: {}
+[36.923310] (-) TimerEvent: {}
+[37.023892] (-) TimerEvent: {}
+[37.124634] (-) TimerEvent: {}
+[37.225250] (-) TimerEvent: {}
+[37.325836] (-) TimerEvent: {}
+[37.426379] (-) TimerEvent: {}
+[37.526966] (-) TimerEvent: {}
+[37.627573] (-) TimerEvent: {}
+[37.678065] (robot_localization) StdoutLine: {'line': b'[ 92%] Built target test_ekf_localization_node_interfaces\n'}
+[37.727958] (-) TimerEvent: {}
+[37.828763] (-) TimerEvent: {}
+[37.929407] (-) TimerEvent: {}
+[38.030061] (-) TimerEvent: {}
+[38.130699] (-) TimerEvent: {}
+[38.231282] (-) TimerEvent: {}
+[38.331779] (-) TimerEvent: {}
+[38.432690] (-) TimerEvent: {}
+[38.533163] (-) TimerEvent: {}
+[38.633736] (-) TimerEvent: {}
+[38.734248] (-) TimerEvent: {}
+[38.834631] (-) TimerEvent: {}
+[38.935081] (-) TimerEvent: {}
+[39.035634] (-) TimerEvent: {}
+[39.136165] (-) TimerEvent: {}
+[39.236703] (-) TimerEvent: {}
+[39.337183] (-) TimerEvent: {}
+[39.437684] (-) TimerEvent: {}
+[39.538251] (-) TimerEvent: {}
+[39.639081] (-) TimerEvent: {}
+[39.739690] (-) TimerEvent: {}
+[39.840307] (-) TimerEvent: {}
+[39.940809] (-) TimerEvent: {}
+[40.021354] (robot_localization) StdoutLine: {'line': b'[ 94%] Built target ukf_node\n'}
+[40.041019] (-) TimerEvent: {}
+[40.141781] (-) TimerEvent: {}
+[40.242466] (-) TimerEvent: {}
+[40.343098] (-) TimerEvent: {}
+[40.443727] (-) TimerEvent: {}
+[40.544459] (-) TimerEvent: {}
+[40.645105] (-) TimerEvent: {}
+[40.745704] (-) TimerEvent: {}
+[40.846271] (-) TimerEvent: {}
+[40.946903] (-) TimerEvent: {}
+[41.047593] (-) TimerEvent: {}
+[41.148215] (-) TimerEvent: {}
+[41.249081] (-) TimerEvent: {}
+[41.337258] (robot_localization) StdoutLine: {'line': b'[ 96%] Built target test_ekf\n'}
+[41.349224] (-) TimerEvent: {}
+[41.449836] (-) TimerEvent: {}
+[41.550398] (-) TimerEvent: {}
+[41.650953] (-) TimerEvent: {}
+[41.751551] (-) TimerEvent: {}
+[41.852456] (-) TimerEvent: {}
+[41.953075] (-) TimerEvent: {}
+[42.053709] (-) TimerEvent: {}
+[42.154332] (-) TimerEvent: {}
+[42.255207] (-) TimerEvent: {}
+[42.355815] (-) TimerEvent: {}
+[42.456371] (-) TimerEvent: {}
+[42.556923] (-) TimerEvent: {}
+[42.657531] (-) TimerEvent: {}
+[42.758331] (-) TimerEvent: {}
+[42.858923] (-) TimerEvent: {}
+[42.959534] (-) TimerEvent: {}
+[42.980429] (robot_localization) StdoutLine: {'line': b'[ 98%] Built target test_ukf_localization_node_interfaces\n'}
+[43.059807] (-) TimerEvent: {}
+[43.160914] (-) TimerEvent: {}
+[43.261555] (-) TimerEvent: {}
+[43.362186] (-) TimerEvent: {}
+[43.462767] (-) TimerEvent: {}
+[43.563241] (-) TimerEvent: {}
+[43.663862] (-) TimerEvent: {}
+[43.754533] (robot_localization) StdoutLine: {'line': b'[100%] Built target test_ros_robot_localization_listener_publisher\n'}
+[43.764069] (-) TimerEvent: {}
+[43.777698] (robot_localization) CommandEnded: {'returncode': 0}
+[43.864235] (-) TimerEvent: {}
+[43.964749] (-) TimerEvent: {}
+[44.065225] (-) TimerEvent: {}
+[44.130196] (robot_localization) JobProgress: {'identifier': 'robot_localization', 'progress': 'install'}
+[44.154041] (robot_localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/dev_ws/build/robot_localization'], 'cwd': '/home/ubuntu/dev_ws/build/robot_localization', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2447'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/dev_ws/install/robot_localization/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2091'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/999/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/dev_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:42234'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/focalfossa/dev_ws/src/basic_mobile_robot/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2525,unix/ubuntu:/tmp/.ICE-unix/2525'), ('INVOCATION_ID', '6489e05d81954a8cb793f3411f6a6fe9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b61c4b26_873e_40da_b799_76e26bb86af7'), ('XDG_RUNTIME_DIR', '/run/user/999'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/999/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AUTH_SOCK', '/run/user/999/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/dev_ws/install/basic_mobile_robot:/home/ubuntu/dev_ws/install/robot_localization:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/999/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/dev_ws/build/robot_localization'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/dev_ws/install/basic_mobile_robot:/home/ubuntu/dev_ws/install/robot_localization:/opt/ros/galactic')]), 'shell': False}
+[44.165350] (-) TimerEvent: {}
+[44.265913] (-) TimerEvent: {}
+[44.366537] (-) TimerEvent: {}
+[44.467185] (-) TimerEvent: {}
+[44.469789] (robot_localization) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[44.526805] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/ament_index/resource_index/rosidl_interfaces/robot_localization\n'}
+[44.567544] (-) TimerEvent: {}
+[44.668227] (-) TimerEvent: {}
+[44.768887] (-) TimerEvent: {}
+[44.794796] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization\n'}
+[44.845988] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/msg\n'}
+[44.869081] (-) TimerEvent: {}
+[44.895147] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/msg/rosidl_generator_c__visibility_control.h\n'}
+[44.895517] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv\n'}
+[44.955388] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/set_pose.h\n'}
+[44.955825] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/to_ll.h\n'}
+[44.956241] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/get_state.h\n'}
+[44.956485] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/set_datum.h\n'}
+[44.956659] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/from_ll.h\n'}
+[44.956828] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail\n'}
+[44.969190] (-) TimerEvent: {}
+[45.010636] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__struct.h\n'}
+[45.011238] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__type_support.h\n'}
+[45.011576] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__functions.h\n'}
+[45.011845] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__functions.c\n'}
+[45.012093] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__functions.h\n'}
+[45.012396] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__functions.h\n'}
+[45.012606] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__functions.c\n'}
+[45.012806] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__struct.h\n'}
+[45.012979] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__functions.c\n'}
+[45.013181] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__functions.c\n'}
+[45.013599] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__type_support.h\n'}
+[45.013845] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__type_support.h\n'}
+[45.014016] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__type_support.h\n'}
+[45.014184] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__struct.h\n'}
+[45.014350] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__type_support.h\n'}
+[45.014516] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__functions.h\n'}
+[45.014681] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__functions.h\n'}
+[45.014848] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__functions.c\n'}
+[45.015013] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__functions.c\n'}
+[45.015181] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__functions.h\n'}
+[45.015346] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__struct.h\n'}
+[45.015511] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__struct.h\n'}
+[45.015701] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__struct.h\n'}
+[45.015868] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__type_support.h\n'}
+[45.016033] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/toggle_filter_processing.h\n'}
+[45.016200] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/environment/library_path.sh\n'}
+[45.016393] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/environment/library_path.dsv\n'}
+[45.069352] (-) TimerEvent: {}
+[45.169841] (-) TimerEvent: {}
+[45.270429] (-) TimerEvent: {}
+[45.371056] (-) TimerEvent: {}
+[45.471673] (-) TimerEvent: {}
+[45.572347] (-) TimerEvent: {}
+[45.672942] (-) TimerEvent: {}
+[45.773444] (-) TimerEvent: {}
+[45.852356] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/librobot_localization__rosidl_generator_c.so\n'}
+[45.853103] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization\n'}
+[45.853395] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/msg\n'}
+[45.853930] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[45.854208] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv\n'}
+[45.854387] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail\n'}
+[45.854565] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_fastrtps_c.h\n'}
+[45.854769] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__rosidl_typesupport_fastrtps_c.h\n'}
+[45.854940] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__rosidl_typesupport_fastrtps_c.h\n'}
+[45.855108] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__rosidl_typesupport_fastrtps_c.h\n'}
+[45.855274] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[45.855438] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__rosidl_typesupport_fastrtps_c.h\n'}
+[45.873549] (-) TimerEvent: {}
+[45.973984] (-) TimerEvent: {}
+[46.074419] (-) TimerEvent: {}
+[46.175147] (-) TimerEvent: {}
+[46.275927] (-) TimerEvent: {}
+[46.376473] (-) TimerEvent: {}
+[46.476959] (-) TimerEvent: {}
+[46.577553] (-) TimerEvent: {}
+[46.678127] (-) TimerEvent: {}
+[46.778857] (-) TimerEvent: {}
+[46.865355] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_fastrtps_c.so\n'}
+[46.866074] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization\n'}
+[46.866370] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/msg\n'}
+[46.866846] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[46.867088] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv\n'}
+[46.867262] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail\n'}
+[46.867475] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/dds_fastrtps\n'}
+[46.867643] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.867810] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.867976] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.868141] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.868360] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.868539] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[46.879031] (-) TimerEvent: {}
+[46.977941] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_fastrtps_cpp.so\n'}
+[46.978557] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization\n'}
+[46.979034] (-) TimerEvent: {}
+[46.979340] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/msg\n'}
+[46.979645] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[46.979846] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv\n'}
+[46.980032] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail\n'}
+[46.980374] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__type_support.c\n'}
+[46.980844] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__rosidl_typesupport_introspection_c.h\n'}
+[46.981045] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__rosidl_typesupport_introspection_c.h\n'}
+[46.981220] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__rosidl_typesupport_introspection_c.h\n'}
+[46.981387] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__rosidl_typesupport_introspection_c.h\n'}
+[46.981606] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__type_support.c\n'}
+[46.981778] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__rosidl_typesupport_introspection_c.h\n'}
+[46.981946] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_introspection_c.h\n'}
+[46.982115] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__type_support.c\n'}
+[46.982281] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__type_support.c\n'}
+[46.982447] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__type_support.c\n'}
+[46.982612] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__type_support.c\n'}
+[47.079231] (-) TimerEvent: {}
+[47.176274] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_introspection_c.so\n'}
+[47.179386] (-) TimerEvent: {}
+[47.279932] (-) TimerEvent: {}
+[47.305028] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_c.so\n'}
+[47.305715] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization\n'}
+[47.305962] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv\n'}
+[47.306186] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/set_datum.hpp\n'}
+[47.306629] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/to_ll.hpp\n'}
+[47.306931] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/toggle_filter_processing.hpp\n'}
+[47.307181] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/from_ll.hpp\n'}
+[47.307353] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/get_state.hpp\n'}
+[47.307521] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail\n'}
+[47.307688] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__struct.hpp\n'}
+[47.307856] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__traits.hpp\n'}
+[47.308021] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__builder.hpp\n'}
+[47.308184] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__traits.hpp\n'}
+[47.308412] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__traits.hpp\n'}
+[47.308583] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__builder.hpp\n'}
+[47.308774] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__builder.hpp\n'}
+[47.308948] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__struct.hpp\n'}
+[47.309114] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__builder.hpp\n'}
+[47.380126] (-) TimerEvent: {}
+[47.442103] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__traits.hpp\n'}
+[47.442871] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__struct.hpp\n'}
+[47.443389] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__traits.hpp\n'}
+[47.443603] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__struct.hpp\n'}
+[47.443978] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__builder.hpp\n'}
+[47.444186] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__traits.hpp\n'}
+[47.444460] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__builder.hpp\n'}
+[47.444639] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__struct.hpp\n'}
+[47.444813] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__struct.hpp\n'}
+[47.444987] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/set_pose.hpp\n'}
+[47.445166] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization\n'}
+[47.445333] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv\n'}
+[47.445505] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail\n'}
+[47.445671] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__type_support.cpp\n'}
+[47.445840] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__rosidl_typesupport_introspection_cpp.hpp\n'}
+[47.446008] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__rosidl_typesupport_introspection_cpp.hpp\n'}
+[47.446187] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[47.446367] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/from_ll__type_support.cpp\n'}
+[47.446544] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/get_state__type_support.cpp\n'}
+[47.446792] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__rosidl_typesupport_introspection_cpp.hpp\n'}
+[47.446960] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[47.447124] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/set_datum__type_support.cpp\n'}
+[47.447330] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/to_ll__type_support.cpp\n'}
+[47.447497] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__type_support.cpp\n'}
+[47.447664] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/include/robot_localization/srv/detail/toggle_filter_processing__rosidl_typesupport_introspection_cpp.hpp\n'}
+[47.480370] (-) TimerEvent: {}
+[47.580987] (-) TimerEvent: {}
+[47.625090] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_introspection_cpp.so\n'}
+[47.681181] (-) TimerEvent: {}
+[47.733059] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/librobot_localization__rosidl_typesupport_cpp.so\n'}
+[47.733776] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/environment/pythonpath.sh\n'}
+[47.734227] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/environment/pythonpath.dsv\n'}
+[47.768747] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/__init__.py\n'}
+[47.781376] (-) TimerEvent: {}
+[47.835726] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv\n'}
+[47.866494] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_from_ll.py\n'}
+[47.867250] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_set_datum_s.c\n'}
+[47.867775] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_toggle_filter_processing.py\n'}
+[47.868043] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_set_datum.py\n'}
+[47.868233] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_from_ll_s.c\n'}
+[47.868493] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_get_state_s.c\n'}
+[47.868668] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_to_ll_s.c\n'}
+[47.868836] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/__init__.py\n'}
+[47.869002] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_set_pose.py\n'}
+[47.869193] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_set_pose_s.c\n'}
+[47.869359] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_toggle_filter_processing_s.c\n'}
+[47.869527] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_get_state.py\n'}
+[47.869695] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/srv/_to_ll.py\n'}
+[47.881551] (-) TimerEvent: {}
+[47.980939] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/robot_localization_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[47.981676] (-) TimerEvent: {}
+[48.082145] (-) TimerEvent: {}
+[48.182701] (-) TimerEvent: {}
+[48.283293] (-) TimerEvent: {}
+[48.287035] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/robot_localization_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[48.371550] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages/robot_localization/robot_localization_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[48.383443] (-) TimerEvent: {}
+[48.483984] (-) TimerEvent: {}
+[48.550250] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/librobot_localization__python.so\n'}
+[48.584143] (-) TimerEvent: {}
+[48.586477] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/FromLL.idl\n'}
+[48.587039] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/GetState.idl\n'}
+[48.587227] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/SetDatum.idl\n'}
+[48.587372] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/SetPose.idl\n'}
+[48.587660] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing.idl\n'}
+[48.587907] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/ToLL.idl\n'}
+[48.588052] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/FromLL.srv\n'}
+[48.588181] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/FromLL_Request.msg\n'}
+[48.588433] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/FromLL_Response.msg\n'}
+[48.588568] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/GetState.srv\n'}
+[48.588752] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/GetState_Request.msg\n'}
+[48.588880] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/GetState_Response.msg\n'}
+[48.589089] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/SetDatum.srv\n'}
+[48.589241] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/SetDatum_Request.msg\n'}
+[48.589475] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/SetDatum_Response.msg\n'}
+[48.589605] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/SetPose.srv\n'}
+[48.589738] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/SetPose_Request.msg\n'}
+[48.589933] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/SetPose_Response.msg\n'}
+[48.590171] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing.srv\n'}
+[48.590355] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing_Request.msg\n'}
+[48.590487] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/ToggleFilterProcessing_Response.msg\n'}
+[48.590612] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/ToLL.srv\n'}
+[48.590738] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/ToLL_Request.msg\n'}
+[48.590923] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/srv/ToLL_Response.msg\n'}
+[48.684342] (-) TimerEvent: {}
+[48.784930] (-) TimerEvent: {}
+[48.885854] (-) TimerEvent: {}
+[48.948457] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/robot_localization/filter_base-test\n'}
+[48.986063] (-) TimerEvent: {}
+[49.086641] (-) TimerEvent: {}
+[49.187213] (-) TimerEvent: {}
+[49.287872] (-) TimerEvent: {}
+[49.388503] (-) TimerEvent: {}
+[49.489121] (-) TimerEvent: {}
+[49.589709] (-) TimerEvent: {}
+[49.690288] (-) TimerEvent: {}
+[49.790846] (-) TimerEvent: {}
+[49.891408] (-) TimerEvent: {}
+[49.916809] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/robot_localization/test_filter_base_diagnostics_timestamps\n'}
+[49.991604] (-) TimerEvent: {}
+[50.092214] (-) TimerEvent: {}
+[50.192819] (-) TimerEvent: {}
+[50.293409] (-) TimerEvent: {}
+[50.393979] (-) TimerEvent: {}
+[50.421600] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/robot_localization/test_ekf\n'}
+[50.494172] (-) TimerEvent: {}
+[50.594772] (-) TimerEvent: {}
+[50.694679] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/robot_localization/test_ekf_localization_node_interfaces\n'}
+[50.695148] (-) TimerEvent: {}
+[50.795657] (-) TimerEvent: {}
+[50.896294] (-) TimerEvent: {}
+[50.909099] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/robot_localization/test_ukf\n'}
+[50.910273] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/robot_localization/test_ukf_localization_node_interfaces\n'}
+[50.911540] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/robot_localization/test_robot_localization_estimator\n'}
+[50.912772] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/robot_localization/test_ros_robot_localization_listener\n'}
+[50.914055] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/robot_localization/test_ros_robot_localization_listener_publisher\n'}
+[50.914777] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test\n'}
+[50.915226] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ros_robot_localization_listener.cpp\n'}
+[50.915600] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_filter_base.cpp\n'}
+[50.915767] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag1.launch.py\n'}
+[50.915910] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_filter_base_diagnostics_timestamps.launch.py\n'}
+[50.916045] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag3.yaml\n'}
+[50.916182] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag1.launch.py\n'}
+[50.916345] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_interfaces.launch.py\n'}
+[50.916848] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test2.bag\n'}
+[50.917004] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag2.launch.py\n'}
+[50.917145] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag3.sh\n'}
+[50.917281] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_robot_localization_estimator.launch.py\n'}
+[50.917387] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test3.bag\n'}
+[50.917485] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_interfaces.yaml\n'}
+[50.917815] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ros_robot_localization_listener.launch.py\n'}
+[50.917923] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag3.launch.py\n'}
+[50.918018] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_robot_localization_estimator.cpp\n'}
+[50.918123] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_interfaces.yaml\n'}
+[50.918214] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_interfaces.cpp\n'}
+[50.918305] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_interfaces.launch.py\n'}
+[50.918405] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag1.yaml\n'}
+[50.918571] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag2.sh\n'}
+[50.918664] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_localization_node_bag_pose_tester.cpp\n'}
+[50.918755] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag1.sh\n'}
+[50.918844] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ros_robot_localization_listener.yaml\n'}
+[50.918933] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag1.yaml\n'}
+[50.919022] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag3.launch.py\n'}
+[50.919112] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag2.launch.py\n'}
+[50.919202] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_filter_base_diagnostics_timestamps.cpp\n'}
+[50.919293] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag2.sh\n'}
+[50.919382] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag1.sh\n'}
+[50.919484] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag3.yaml\n'}
+[50.919582] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag3.sh\n'}
+[50.919682] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test1.bag\n'}
+[50.919781] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ekf.cpp\n'}
+[50.919880] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_filter_base_diagnostics_timestamps.yaml\n'}
+[50.919979] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_bag2.yaml\n'}
+[50.920078] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ukf.cpp\n'}
+[50.920183] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ukf_localization_node_interfaces.cpp\n'}
+[50.920327] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ekf_localization_node_bag2.yaml\n'}
+[50.920518] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/test/test_ros_robot_localization_listener_publisher.cpp\n'}
+[50.920621] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/robot_localization/navsat_transform_node\n'}
+[50.920722] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/robot_localization/ekf_node\n'}
+[50.920872] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/robot_localization/ukf_node\n'}
+[50.921657] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/robot_localization/robot_localization_listener_node\n'}
+[50.922795] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/lib/librl_lib.so\n'}
+[50.923443] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/params\n'}
+[50.923774] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/params/ukf.yaml\n'}
+[50.924077] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/params/ekf.yaml\n'}
+[50.924422] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/params/navsat_transform.yaml\n'}
+[50.924601] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/params/dual_ekf_navsat_example.yaml\n'}
+[50.924753] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/launch\n'}
+[50.924898] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/launch/dual_ekf_navsat_example.launch.py\n'}
+[50.925038] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/launch/ekf.launch.py\n'}
+[50.925340] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/launch/navsat_transform.launch.py\n'}
+[50.925499] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/launch/ukf.launch.py\n'}
+[50.925617] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/ament_index/resource_index/package_run_dependencies/robot_localization\n'}
+[50.925739] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/ament_index/resource_index/parent_prefix_path/robot_localization\n'}
+[50.925851] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/environment/ament_prefix_path.sh\n'}
+[50.925950] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/environment/ament_prefix_path.dsv\n'}
+[50.926125] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/environment/path.sh\n'}
+[50.926311] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/environment/path.dsv\n'}
+[50.926389] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/local_setup.bash\n'}
+[50.926460] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/local_setup.sh\n'}
+[50.926531] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/local_setup.zsh\n'}
+[50.926601] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/local_setup.dsv\n'}
+[50.926671] (robot_localization) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/package.dsv\n'}
+[50.944598] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/ament_index/resource_index/packages/robot_localization\n'}
+[50.996451] (-) TimerEvent: {}
+[51.097038] (-) TimerEvent: {}
+[51.118232] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_generator_cExport.cmake\n'}
+[51.118895] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_generator_cExport-relwithdebinfo.cmake\n'}
+[51.146242] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cExport.cmake\n'}
+[51.146760] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake\n'}
+[51.174775] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cExport.cmake\n'}
+[51.175328] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cExport-relwithdebinfo.cmake\n'}
+[51.197248] (-) TimerEvent: {}
+[51.202448] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_generator_cppExport.cmake\n'}
+[51.238799] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[51.239493] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake\n'}
+[51.274111] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cppExport.cmake\n'}
+[51.274783] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/robot_localization__rosidl_typesupport_cppExport-relwithdebinfo.cmake\n'}
+[51.275015] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/rosidl_cmake-extras.cmake\n'}
+[51.275392] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[51.275612] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[51.275811] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[51.275994] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[51.276175] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[51.276549] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[51.276736] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig.cmake\n'}
+[51.276948] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/cmake/robot_localizationConfig-version.cmake\n'}
+[51.277147] (robot_localization) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/robot_localization/share/robot_localization/package.xml\n'}
+[51.297443] (-) TimerEvent: {}
+[51.332790] (robot_localization) CommandEnded: {'returncode': 0}
+[51.397699] (-) TimerEvent: {}
+[51.498405] (-) TimerEvent: {}
+[51.598989] (-) TimerEvent: {}
+[51.699557] (-) TimerEvent: {}
+[51.761727] (robot_localization) JobEnded: {'identifier': 'robot_localization', 'rc': 0}
+[51.766449] (basic_mobile_robot) JobStarted: {'identifier': 'basic_mobile_robot'}
+[51.785483] (basic_mobile_robot) JobProgress: {'identifier': 'basic_mobile_robot', 'progress': 'cmake'}
+[51.799765] (-) TimerEvent: {}
+[51.829573] (basic_mobile_robot) JobProgress: {'identifier': 'basic_mobile_robot', 'progress': 'build'}
+[51.830067] (basic_mobile_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/dev_ws/build/basic_mobile_robot', '--', '-j12', '-l12'], 'cwd': '/home/ubuntu/dev_ws/build/basic_mobile_robot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2447'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/dev_ws/install/robot_localization/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2091'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/999/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/dev_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:42234'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/focalfossa/dev_ws/src/basic_mobile_robot/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2525,unix/ubuntu:/tmp/.ICE-unix/2525'), ('INVOCATION_ID', '6489e05d81954a8cb793f3411f6a6fe9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b61c4b26_873e_40da_b799_76e26bb86af7'), ('XDG_RUNTIME_DIR', '/run/user/999'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/999/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AUTH_SOCK', '/run/user/999/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/dev_ws/install/basic_mobile_robot:/home/ubuntu/dev_ws/install/robot_localization:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/999/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/dev_ws/build/basic_mobile_robot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/dev_ws/install/robot_localization:/home/ubuntu/dev_ws/install/basic_mobile_robot:/opt/ros/galactic')]), 'shell': False}
+[51.899995] (-) TimerEvent: {}
+[52.000957] (-) TimerEvent: {}
+[52.101524] (-) TimerEvent: {}
+[52.202090] (-) TimerEvent: {}
+[52.302634] (-) TimerEvent: {}
+[52.403133] (-) TimerEvent: {}
+[52.503590] (-) TimerEvent: {}
+[52.589936] (basic_mobile_robot) CommandEnded: {'returncode': 0}
+[52.603817] (-) TimerEvent: {}
+[52.632136] (basic_mobile_robot) JobProgress: {'identifier': 'basic_mobile_robot', 'progress': 'install'}
+[52.635033] (basic_mobile_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/dev_ws/build/basic_mobile_robot'], 'cwd': '/home/ubuntu/dev_ws/build/basic_mobile_robot', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_AGENT_PID', '2447'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/dev_ws/install/robot_localization/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2091'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/999/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ubuntu/dev_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ubuntu'), ('JOURNAL_STREAM', '8:42234'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ubuntu'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/home/focalfossa/dev_ws/src/basic_mobile_robot/models/'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2525,unix/ubuntu:/tmp/.ICE-unix/2525'), ('INVOCATION_ID', '6489e05d81954a8cb793f3411f6a6fe9'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b61c4b26_873e_40da_b799_76e26bb86af7'), ('XDG_RUNTIME_DIR', '/run/user/999'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/999/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AUTH_SOCK', '/run/user/999/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ubuntu/dev_ws/install/basic_mobile_robot:/home/ubuntu/dev_ws/install/robot_localization:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/999/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/dev_ws/build/basic_mobile_robot'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/dev_ws/install/robot_localization/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/dev_ws/install/robot_localization:/home/ubuntu/dev_ws/install/basic_mobile_robot:/opt/ros/galactic')]), 'shell': False}
+[52.652862] (basic_mobile_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[52.653825] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/config\n'}
+[52.654084] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/config/ekf.yaml\n'}
+[52.654325] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch\n'}
+[52.654792] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v3.launch.py\n'}
+[52.655035] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v2.launch.py\n'}
+[52.655243] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v1.launch.py\n'}
+[52.655505] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v4.launch.py\n'}
+[52.655760] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/maps\n'}
+[52.656025] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes\n'}
+[52.656268] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/elbow.stl-20221106T080452Z-001\n'}
+[52.656452] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/elbow.stl-20221106T080452Z-001/elbow.stl\n'}
+[52.656624] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheel.stl-20221106T080454Z-001\n'}
+[52.656784] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheel.stl-20221106T080454Z-001/wheel.stl\n'}
+[52.656944] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/arm_base.stl-20221106T080452Z-001\n'}
+[52.657104] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/arm_base.stl-20221106T080452Z-001/arm_base.stl\n'}
+[52.657265] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wrist.stl-20221106T080455Z-001\n'}
+[52.657424] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wrist.stl-20221106T080455Z-001/wrist.stl\n'}
+[52.657583] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bicep.stl-20221106T080452Z-001\n'}
+[52.657741] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bicep.stl-20221106T080452Z-001/bicep.stl\n'}
+[52.657899] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/robot_base.stl-20221106T080452Z-001\n'}
+[52.658156] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/robot_base.stl-20221106T080452Z-001/robot_base.stl\n'}
+[52.658346] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models\n'}
+[52.658707] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description\n'}
+[52.658889] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.sdf\n'}
+[52.659521] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.config\n'}
+[52.660024] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes\n'}
+[52.660269] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/elbow.stl-20221106T080452Z-001\n'}
+[52.660568] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/elbow.stl-20221106T080452Z-001/elbow.stl\n'}
+[52.660799] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wheel.stl-20221106T080454Z-001\n'}
+[52.661045] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wheel.stl-20221106T080454Z-001/wheel.stl\n'}
+[52.662216] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/arm_base.stl-20221106T080452Z-001\n'}
+[52.667319] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/arm_base.stl-20221106T080452Z-001/arm_base.stl\n'}
+[52.667660] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wrist.stl-20221106T080455Z-001\n'}
+[52.667926] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wrist.stl-20221106T080455Z-001/wrist.stl\n'}
+[52.668186] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/bicep.stl-20221106T080452Z-001\n'}
+[52.668458] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/bicep.stl-20221106T080452Z-001/bicep.stl\n'}
+[52.668973] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/robot_base.stl-20221106T080452Z-001\n'}
+[52.669263] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/robot_base.stl-20221106T080452Z-001/robot_base.stl\n'}
+[52.669523] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v1.urdf\n'}
+[52.669785] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v2.urdf\n'}
+[52.670097] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/params\n'}
+[52.670337] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz\n'}
+[52.670723] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/urdf_config.rviz\n'}
+[52.670962] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/src\n'}
+[52.671174] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/worlds\n'}
+[52.671412] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/worlds/basic_mobile_bot_world\n'}
+[52.671653] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/worlds/basic_mobile_bot_world/smalltown.world\n'}
+[52.671873] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/ament_index/resource_index/package_run_dependencies/basic_mobile_robot\n'}
+[52.672125] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/ament_index/resource_index/parent_prefix_path/basic_mobile_robot\n'}
+[52.672486] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.sh\n'}
+[52.672688] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.dsv\n'}
+[52.672802] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.sh\n'}
+[52.672880] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.dsv\n'}
+[52.672966] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.bash\n'}
+[52.673042] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.sh\n'}
+[52.673118] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.zsh\n'}
+[52.673192] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.dsv\n'}
+[52.673267] (basic_mobile_robot) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.dsv\n'}
+[52.673343] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/ament_index/resource_index/packages/basic_mobile_robot\n'}
+[52.673417] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig.cmake\n'}
+[52.673493] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig-version.cmake\n'}
+[52.673576] (basic_mobile_robot) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dev_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.xml\n'}
+[52.673653] (basic_mobile_robot) CommandEnded: {'returncode': 0}
+[52.703994] (-) TimerEvent: {}
+[52.789248] (basic_mobile_robot) JobEnded: {'identifier': 'basic_mobile_robot', 'rc': 0}
+[52.791138] (-) EventReactorShutdown: {}
